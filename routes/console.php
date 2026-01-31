@@ -3,5 +3,5 @@
 
 use Illuminate\Support\Facades\Schedule;
 
-Schedule::command('app:harvest-journals')->everyFiveMinutes();
+Schedule::command('app:harvest-journals')->everyTenMinutes();
 

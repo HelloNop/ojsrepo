@@ -29,11 +29,6 @@ class PublisherResource extends Resource
         return PublisherForm::configure($schema);
     }
 
-    public static function infolist(Schema $schema): Schema
-    {
-        return PublisherInfolist::configure($schema);
-    }
-
     public static function table(Table $table): Table
     {
         return PublishersTable::configure($table);
@@ -51,7 +46,6 @@ class PublisherResource extends Resource
         return [
             'index' => ListPublishers::route('/'),
             'create' => CreatePublisher::route('/create'),
-            'view' => ViewPublisher::route('/{record}'),
             'edit' => EditPublisher::route('/{record}/edit'),
         ];
     }
