@@ -4,7 +4,7 @@
 <div class="relative bg-white isolate overflow-hidden">
     <!-- Hero Section -->
     <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-20 pb-24 text-center">
-        <h1 class="text-4xl font-bold tracking-tight font-serif text-gray-900 sm:text-6xl">Dinasti Journal Repository</h1>
+        <h1 class="text-4xl font-bold tracking-tight font-serif text-gray-900 sm:text-6xl">{{ env('APP_NAME') }}</h1>
         <p class="mt-6 text-lg leading-8 text-gray-600">
             Discover thousands of open access articles, journals, and research papers from our community.
         </p>
